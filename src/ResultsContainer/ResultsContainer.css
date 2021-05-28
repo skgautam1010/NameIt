@@ -1,0 +1,9 @@
+.results-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+}
