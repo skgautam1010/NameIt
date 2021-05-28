@@ -21,7 +21,7 @@ class App extends React.Component {
     this.setState(
       {
         headerExpanded: !inputText,
-        suggestedNames: name(inputText),
+        suggestedNames: inputText ? name(inputText) : [],
       });
   }
 
